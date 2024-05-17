@@ -10,7 +10,7 @@ import SwiftUI
 struct NumbersCircleView: View {
     
     var numbers: [Int]
-    var plus: Int
+    var plus: Int?
     
     var body: some View {
         HStack(spacing: 4) {
@@ -21,12 +21,13 @@ struct NumbersCircleView: View {
                     .foregroundColor(Color.ballColor(number: index))
             }
             
-            Image(systemName: "plus")
-            Image(systemName: "\(plus).circle.fill")
-                .resizable()
-                .frame(width: 30, height: 30)
-                .foregroundColor(Color.ballColor(number: plus))
-            
+            if let plus {
+                Image(systemName: "plus")
+                Image(systemName: "\(plus).circle.fill")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .foregroundColor(Color.ballColor(number: plus))
+            }
         }
     }
 }

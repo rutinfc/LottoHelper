@@ -9,10 +9,15 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class CheckNumbers {
+    
+    var round: Int
+    var numbers: [Int]
     var timestamp: Date
     
-    init(timestamp: Date) {
+    init(round: Int, numbers: [Int], timestamp: Date) {
+        self.round = round
+        self.numbers = numbers
         self.timestamp = timestamp
     }
 }

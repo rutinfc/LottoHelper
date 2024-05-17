@@ -18,6 +18,7 @@ struct NumberInputView: View {
             .compactMap({ numbers[$0.offset] })
     }
     
+    let checkIntent = LottoInfo.CheckIntent()
     let numbers = LottoInfo.list
     let numbersColums = [ GridItem(.adaptive(minimum: 40, maximum: 40), spacing: 4) ]
     let checkColums = [ GridItem(.adaptive(minimum: 40, maximum: 40), spacing: 4) ]
@@ -51,7 +52,8 @@ struct NumberInputView: View {
                 .frame(width: 40, height: 40)
                 
                 Button {
-
+                    self.checkIntent.save(numbers: self.selectedNumbers)
+                    self.clear()
                 } label : {
                     Image(systemName: "plus.app").resizable()
                 }

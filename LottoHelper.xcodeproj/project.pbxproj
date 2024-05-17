@@ -16,11 +16,40 @@
 		354262582BF3350F00E23331 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262572BF3350F00E23331 /* ColorExtension.swift */; };
 		3552CE4E2BF216B30031F5FB /* LottoHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */; };
 		3552CE502BF216B30031F5FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4F2BF216B30031F5FB /* ContentView.swift */; };
-		3552CE522BF216B30031F5FB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE512BF216B30031F5FB /* Item.swift */; };
+		3552CE522BF216B30031F5FB /* CheckNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE512BF216B30031F5FB /* CheckNumbers.swift */; };
 		3552CE542BF216B60031F5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3552CE532BF216B60031F5FB /* Assets.xcassets */; };
 		3552CE572BF216B60031F5FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3552CE562BF216B60031F5FB /* Preview Assets.xcassets */; };
 		813E1A992BF71CB7006B3B2A /* WinNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E1A982BF71CB7006B3B2A /* WinNumbers.swift */; };
+		813E1B042BF74A45006B3B2A /* LottoHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */; };
+		813E1B052BF74A4B006B3B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4F2BF216B30031F5FB /* ContentView.swift */; };
+		813E1B062BF74A4F006B3B2A /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624B2BF21D1800E23331 /* ItemListView.swift */; };
+		813E1B072BF74A51006B3B2A /* CheckNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE512BF216B30031F5FB /* CheckNumbers.swift */; };
+		813E1B082BF74A56006B3B2A /* NumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624D2BF220B100E23331 /* NumberInputView.swift */; };
+		813E1B092BF74A58006B3B2A /* LottoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624F2BF220F800E23331 /* LottoInfo.swift */; };
+		813E1B0A2BF74A5B006B3B2A /* NumbersCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262532BF2FE8400E23331 /* NumbersCircleView.swift */; };
+		813E1B0B2BF74A5F006B3B2A /* NumberCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262512BF2F36600E23331 /* NumberCheckView.swift */; };
+		813E1B0C2BF74A62006B3B2A /* WinNumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262552BF3034F00E23331 /* WinNumberListView.swift */; };
+		813E1B0D2BF74A64006B3B2A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262572BF3350F00E23331 /* ColorExtension.swift */; };
+		813E1B0E2BF74A67006B3B2A /* WinNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E1A982BF71CB7006B3B2A /* WinNumbers.swift */; };
+		813E1B0F2BF74A71006B3B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3552CE532BF216B60031F5FB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813E1AEA2BF749C5006B3B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3552CE422BF216B30031F5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813E1AD62BF749C4006B3B2A;
+			remoteInfo = LottoHelperMac;
+		};
+		813E1AF42BF749C5006B3B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3552CE422BF216B30031F5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813E1AD62BF749C4006B3B2A;
+			remoteInfo = LottoHelperMac;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3542624B2BF21D1800E23331 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
@@ -33,16 +62,40 @@
 		3552CE4A2BF216B30031F5FB /* LottoHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoHelperApp.swift; sourceTree = "<group>"; };
 		3552CE4F2BF216B30031F5FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3552CE512BF216B30031F5FB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3552CE512BF216B30031F5FB /* CheckNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNumbers.swift; sourceTree = "<group>"; };
 		3552CE532BF216B60031F5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3552CE562BF216B60031F5FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3552CE582BF216B60031F5FB /* LottoHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LottoHelper.entitlements; sourceTree = "<group>"; };
 		3552CE592BF216B60031F5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813E1A982BF71CB7006B3B2A /* WinNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinNumbers.swift; sourceTree = "<group>"; };
+		813E1AD72BF749C4006B3B2A /* LottoHelperMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoHelperMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813E1AE92BF749C5006B3B2A /* LottoHelperMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoHelperMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813E1AF32BF749C5006B3B2A /* LottoHelperMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoHelperMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3552CE472BF216B30031F5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AD42BF749C4006B3B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AE62BF749C5006B3B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AF02BF749C5006B3B2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,6 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				3552CE4A2BF216B30031F5FB /* LottoHelper.app */,
+				813E1AD72BF749C4006B3B2A /* LottoHelperMac.app */,
+				813E1AE92BF749C5006B3B2A /* LottoHelperMacTests.xctest */,
+				813E1AF32BF749C5006B3B2A /* LottoHelperMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,21 +127,16 @@
 		3552CE4C2BF216B30031F5FB /* LottoHelper */ = {
 			isa = PBXGroup;
 			children = (
+				813E1B132BF7596F006B3B2A /* Etc */,
+				813E1B122BF7595B006B3B2A /* Logic */,
+				813E1B112BF75943006B3B2A /* Component */,
+				813E1B102BF75923006B3B2A /* MainView */,
 				3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */,
 				3552CE4F2BF216B30031F5FB /* ContentView.swift */,
-				3542624B2BF21D1800E23331 /* ItemListView.swift */,
-				3552CE512BF216B30031F5FB /* Item.swift */,
 				3552CE532BF216B60031F5FB /* Assets.xcassets */,
 				3552CE582BF216B60031F5FB /* LottoHelper.entitlements */,
 				3552CE592BF216B60031F5FB /* Info.plist */,
 				3552CE552BF216B60031F5FB /* Preview Content */,
-				3542624D2BF220B100E23331 /* NumberInputView.swift */,
-				3542624F2BF220F800E23331 /* LottoInfo.swift */,
-				354262512BF2F36600E23331 /* NumberCheckView.swift */,
-				354262532BF2FE8400E23331 /* NumbersCircleView.swift */,
-				354262552BF3034F00E23331 /* WinNumberListView.swift */,
-				354262572BF3350F00E23331 /* ColorExtension.swift */,
-				813E1A982BF71CB7006B3B2A /* WinNumbers.swift */,
 			);
 			path = LottoHelper;
 			sourceTree = "<group>";
@@ -96,6 +147,43 @@
 				3552CE562BF216B60031F5FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		813E1B102BF75923006B3B2A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				354262512BF2F36600E23331 /* NumberCheckView.swift */,
+				3542624B2BF21D1800E23331 /* ItemListView.swift */,
+				354262552BF3034F00E23331 /* WinNumberListView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		813E1B112BF75943006B3B2A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				354262532BF2FE8400E23331 /* NumbersCircleView.swift */,
+				3542624D2BF220B100E23331 /* NumberInputView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		813E1B122BF7595B006B3B2A /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				3552CE512BF216B30031F5FB /* CheckNumbers.swift */,
+				3542624F2BF220F800E23331 /* LottoInfo.swift */,
+				813E1A982BF71CB7006B3B2A /* WinNumbers.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		813E1B132BF7596F006B3B2A /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				354262572BF3350F00E23331 /* ColorExtension.swift */,
+			);
+			path = Etc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +206,59 @@
 			productReference = 3552CE4A2BF216B30031F5FB /* LottoHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
+		813E1AD62BF749C4006B3B2A /* LottoHelperMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813E1AFB2BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMac" */;
+			buildPhases = (
+				813E1AD32BF749C4006B3B2A /* Sources */,
+				813E1AD42BF749C4006B3B2A /* Frameworks */,
+				813E1AD52BF749C4006B3B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottoHelperMac;
+			productName = LottoHelperMac;
+			productReference = 813E1AD72BF749C4006B3B2A /* LottoHelperMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813E1AE82BF749C5006B3B2A /* LottoHelperMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813E1AFE2BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMacTests" */;
+			buildPhases = (
+				813E1AE52BF749C5006B3B2A /* Sources */,
+				813E1AE62BF749C5006B3B2A /* Frameworks */,
+				813E1AE72BF749C5006B3B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813E1AEB2BF749C5006B3B2A /* PBXTargetDependency */,
+			);
+			name = LottoHelperMacTests;
+			productName = LottoHelperMacTests;
+			productReference = 813E1AE92BF749C5006B3B2A /* LottoHelperMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		813E1AF22BF749C5006B3B2A /* LottoHelperMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813E1B012BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMacUITests" */;
+			buildPhases = (
+				813E1AEF2BF749C5006B3B2A /* Sources */,
+				813E1AF02BF749C5006B3B2A /* Frameworks */,
+				813E1AF12BF749C5006B3B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813E1AF52BF749C5006B3B2A /* PBXTargetDependency */,
+			);
+			name = LottoHelperMacUITests;
+			productName = LottoHelperMacUITests;
+			productReference = 813E1AF32BF749C5006B3B2A /* LottoHelperMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,11 +266,22 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					3552CE492BF216B30031F5FB = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					813E1AD62BF749C4006B3B2A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					813E1AE82BF749C5006B3B2A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 813E1AD62BF749C4006B3B2A;
+					};
+					813E1AF22BF749C5006B3B2A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 813E1AD62BF749C4006B3B2A;
 					};
 				};
 			};
@@ -147,6 +299,9 @@
 			projectRoot = "";
 			targets = (
 				3552CE492BF216B30031F5FB /* LottoHelper */,
+				813E1AD62BF749C4006B3B2A /* LottoHelperMac */,
+				813E1AE82BF749C5006B3B2A /* LottoHelperMacTests */,
+				813E1AF22BF749C5006B3B2A /* LottoHelperMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +316,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		813E1AD52BF749C4006B3B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813E1B0F2BF74A71006B3B2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AE72BF749C5006B3B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AF12BF749C5006B3B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -171,7 +348,7 @@
 				3552CE502BF216B30031F5FB /* ContentView.swift in Sources */,
 				3542624E2BF220B100E23331 /* NumberInputView.swift in Sources */,
 				354262502BF220F800E23331 /* LottoInfo.swift in Sources */,
-				3552CE522BF216B30031F5FB /* Item.swift in Sources */,
+				3552CE522BF216B30031F5FB /* CheckNumbers.swift in Sources */,
 				813E1A992BF71CB7006B3B2A /* WinNumbers.swift in Sources */,
 				354262522BF2F36600E23331 /* NumberCheckView.swift in Sources */,
 				3552CE4E2BF216B30031F5FB /* LottoHelperApp.swift in Sources */,
@@ -182,7 +359,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		813E1AD32BF749C4006B3B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813E1B062BF74A4F006B3B2A /* ItemListView.swift in Sources */,
+				813E1B092BF74A58006B3B2A /* LottoInfo.swift in Sources */,
+				813E1B052BF74A4B006B3B2A /* ContentView.swift in Sources */,
+				813E1B0E2BF74A67006B3B2A /* WinNumbers.swift in Sources */,
+				813E1B082BF74A56006B3B2A /* NumberInputView.swift in Sources */,
+				813E1B072BF74A51006B3B2A /* CheckNumbers.swift in Sources */,
+				813E1B042BF74A45006B3B2A /* LottoHelperApp.swift in Sources */,
+				813E1B0C2BF74A62006B3B2A /* WinNumberListView.swift in Sources */,
+				813E1B0B2BF74A5F006B3B2A /* NumberCheckView.swift in Sources */,
+				813E1B0A2BF74A5B006B3B2A /* NumbersCircleView.swift in Sources */,
+				813E1B0D2BF74A64006B3B2A /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AE52BF749C5006B3B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813E1AEF2BF749C5006B3B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813E1AEB2BF749C5006B3B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813E1AD62BF749C4006B3B2A /* LottoHelperMac */;
+			targetProxy = 813E1AEA2BF749C5006B3B2A /* PBXContainerItemProxy */;
+		};
+		813E1AF52BF749C5006B3B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813E1AD62BF749C4006B3B2A /* LottoHelperMac */;
+			targetProxy = 813E1AF42BF749C5006B3B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3552CE5A2BF216B60031F5FB /* Debug */ = {
@@ -368,6 +590,142 @@
 			};
 			name = Release;
 		};
+		813E1AFC2BF749C5006B3B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LottoHelper/LottoHelperMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottoHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		813E1AFD2BF749C5006B3B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LottoHelper/LottoHelperMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottoHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		813E1AFF2BF749C5006B3B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoHelperMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LottoHelperMac";
+			};
+			name = Debug;
+		};
+		813E1B002BF749C5006B3B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottoHelperMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LottoHelperMac";
+			};
+			name = Release;
+		};
+		813E1B022BF749C5006B3B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LottoHelperMac;
+			};
+			name = Debug;
+		};
+		813E1B032BF749C5006B3B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LESN4U5NE7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rutinfc.LottoHelperMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LottoHelperMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -385,6 +743,33 @@
 			buildConfigurations = (
 				3552CE5D2BF216B60031F5FB /* Debug */,
 				3552CE5E2BF216B60031F5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813E1AFB2BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813E1AFC2BF749C5006B3B2A /* Debug */,
+				813E1AFD2BF749C5006B3B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813E1AFE2BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813E1AFF2BF749C5006B3B2A /* Debug */,
+				813E1B002BF749C5006B3B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813E1B012BF749C5006B3B2A /* Build configuration list for PBXNativeTarget "LottoHelperMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813E1B022BF749C5006B3B2A /* Debug */,
+				813E1B032BF749C5006B3B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

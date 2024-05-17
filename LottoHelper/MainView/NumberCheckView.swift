@@ -13,13 +13,20 @@ struct NumberCheckView: View {
     
     var body: some View {
         VStack {
+            HStack {
+                Text("Number Check").font(.title)
+                Spacer()
+            }
+            .padding(.horizontal, 16)
+            .frame(height: 60)
+            
             NumberInputView(selectedNumbers: $selectedNumbers)
                 .padding(.vertical, 8)
             
             HStack {
                 Spacer()
                 Button {
-                    self.selectedNumbers = Array(LottoInfo.randomNumbers(count: 6))
+                    self.selectedNumbers = Array(LottoInfo.randomNumbers(count: 6, exception: self.selectedNumbers))
                 } label: {
                     Image(systemName: "pencil.and.outline")
                         .resizable()

@@ -6,26 +6,50 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct WinNumberListView: View {
     
     @State private var showDummyAlert = false
     @State private var dummyRounds: String = ""
-    @StateObject private var winsInfo = LottoInfo.WinsModel()
+    
+    private var winIntent: LottoInfo.WinIntent
+    @Environment(\.modelContext) private var context
+    @Query(sort: \WinNumbers.round) private var list: [WinNumbers]
+    
+    private var didSavePublisher: NotificationCenter.Publisher {
+        NotificationCenter.default
+            .publisher(for: ModelContext.willSave, object: self.context)
+    }
+    
+    init() {
+        self.winIntent = LottoInfo.WinIntent()
+    }
     
     var body: some View {
         VStack(spacing: 0) {
             HStack {
                 Text("Win Numbers").font(.title)
                 Spacer()
+                Button("Add") {
+                    self.winIntent.add()
+                }
+                .buttonStyle(.borderedProminent)
+                
+                Button("Clear") {
+                    self.winIntent.removeAll()
+                }
+                .buttonStyle(.borderedProminent)
+                
                 Button("Dummy") {
                     self.showDummyAlert.toggle()
                 }
+                .buttonStyle(.borderedProminent)
                 .alert("Create Dummy", isPresented: $showDummyAlert) {
                     TextField("Create Rounds", text: $dummyRounds)
                     Button("Create") {
                         if let round = Int(dummyRounds) {
-                            winsInfo.createDummy(rounds: round)
+                            self.winIntent.createDummy(rounds: round)
                         }
                     }
                     Button("Cancel", role: .cancel) {}
@@ -34,10 +58,10 @@ struct WinNumberListView: View {
                 }
             }
             .padding(.horizontal, 16)
-            .frame(height: 80)
+            .frame(height: 60)
             
             List {
-                ForEach(winsInfo.list, id: \.self) { item in
+                ForEach(list, id: \.self) { item in
                     HStack {
                         Text("\(item.round)")
                             .frame(width: 40, alignment: .leading)
@@ -47,12 +71,16 @@ struct WinNumberListView: View {
                         
                         Spacer()
                     }
-                    
+                    .padding(.vertical, 8)
                 }
             }
-        }.onAppear() {
-            if winsInfo.list.count == 0 {
-                winsInfo.createDummy(rounds: 100)
+        }
+        .onReceive(self.didSavePublisher, perform: { _ in
+            print("didSavePublisher working?")
+        })
+        .onAppear() {
+            if self.list.count == 0 {
+                self.winIntent.createDummy(rounds: 100)
             }
         }
     }
