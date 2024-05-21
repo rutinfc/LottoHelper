@@ -11,10 +11,16 @@ import SwiftData
 @main
 struct LottoHelperApp: App {
 
+    @StateObject var analyze = LottoInfo.Analyze()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    analyze.reload()
+                }
         }
         .modelContainer(LottoInfo.Container.shared.modelContainer)
+        .environmentObject(analyze)
     }
 }

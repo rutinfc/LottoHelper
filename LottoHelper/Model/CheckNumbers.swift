@@ -13,9 +13,9 @@ final class CheckNumbers {
     
     var round: Int
     var numbers: [Int]
-    var timestamp: Date
+    @Attribute(.unique) var timestamp: Date
     
-    init(round: Int, numbers: [Int], timestamp: Date) {
+    init(round: Int, numbers: [Int], timestamp: Date = Date()) {
         self.round = round
         self.numbers = numbers
         self.timestamp = timestamp

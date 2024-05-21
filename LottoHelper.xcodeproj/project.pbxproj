@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3542624C2BF21D1800E23331 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624B2BF21D1800E23331 /* ItemListView.swift */; };
+		3542624C2BF21D1800E23331 /* MyNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624B2BF21D1800E23331 /* MyNumbersView.swift */; };
 		3542624E2BF220B100E23331 /* NumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624D2BF220B100E23331 /* NumberInputView.swift */; };
 		354262502BF220F800E23331 /* LottoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624F2BF220F800E23331 /* LottoInfo.swift */; };
 		354262522BF2F36600E23331 /* NumberCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262512BF2F36600E23331 /* NumberCheckView.swift */; };
 		354262542BF2FE8400E23331 /* NumbersCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262532BF2FE8400E23331 /* NumbersCircleView.swift */; };
 		354262562BF3035000E23331 /* WinNumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262552BF3034F00E23331 /* WinNumberListView.swift */; };
 		354262582BF3350F00E23331 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262572BF3350F00E23331 /* ColorExtension.swift */; };
+		3545B8702BFF3F200028FD32 /* RoundNumbersItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545B86F2BFF3F200028FD32 /* RoundNumbersItemView.swift */; };
+		3545B8712BFF3F870028FD32 /* RoundNumbersItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545B86F2BFF3F200028FD32 /* RoundNumbersItemView.swift */; };
 		3552CE4E2BF216B30031F5FB /* LottoHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */; };
 		3552CE502BF216B30031F5FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4F2BF216B30031F5FB /* ContentView.swift */; };
 		3552CE522BF216B30031F5FB /* CheckNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE512BF216B30031F5FB /* CheckNumbers.swift */; };
@@ -22,7 +24,7 @@
 		813E1A992BF71CB7006B3B2A /* WinNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E1A982BF71CB7006B3B2A /* WinNumbers.swift */; };
 		813E1B042BF74A45006B3B2A /* LottoHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */; };
 		813E1B052BF74A4B006B3B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE4F2BF216B30031F5FB /* ContentView.swift */; };
-		813E1B062BF74A4F006B3B2A /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624B2BF21D1800E23331 /* ItemListView.swift */; };
+		813E1B062BF74A4F006B3B2A /* MyNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624B2BF21D1800E23331 /* MyNumbersView.swift */; };
 		813E1B072BF74A51006B3B2A /* CheckNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552CE512BF216B30031F5FB /* CheckNumbers.swift */; };
 		813E1B082BF74A56006B3B2A /* NumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624D2BF220B100E23331 /* NumberInputView.swift */; };
 		813E1B092BF74A58006B3B2A /* LottoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542624F2BF220F800E23331 /* LottoInfo.swift */; };
@@ -32,6 +34,16 @@
 		813E1B0D2BF74A64006B3B2A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354262572BF3350F00E23331 /* ColorExtension.swift */; };
 		813E1B0E2BF74A67006B3B2A /* WinNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E1A982BF71CB7006B3B2A /* WinNumbers.swift */; };
 		813E1B0F2BF74A71006B3B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3552CE532BF216B60031F5FB /* Assets.xcassets */; };
+		8159B7402BFC571300F52DC1 /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159B73F2BFC571300F52DC1 /* AnalyzeView.swift */; };
+		8159B7452BFC5A6600F52DC1 /* NumbersTotalCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159B7442BFC5A6600F52DC1 /* NumbersTotalCount.swift */; };
+		8159B7462BFC5C2900F52DC1 /* NumbersTotalCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159B7442BFC5A6600F52DC1 /* NumbersTotalCount.swift */; };
+		8159B7472BFC707400F52DC1 /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159B73F2BFC571300F52DC1 /* AnalyzeView.swift */; };
+		818302E52C07589A00091BFC /* NavigationToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818302E42C07589A00091BFC /* NavigationToolbarModifier.swift */; };
+		818302E62C0759F500091BFC /* NavigationToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818302E42C07589A00091BFC /* NavigationToolbarModifier.swift */; };
+		81A09E242C304960006A65D1 /* NumberBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A09E232C304960006A65D1 /* NumberBarChartView.swift */; };
+		81A09E252C3049B9006A65D1 /* NumberBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A09E232C304960006A65D1 /* NumberBarChartView.swift */; };
+		81BC8F072C070AD10082036A /* NumbersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC8F062C070AD10082036A /* NumbersDetailView.swift */; };
+		81BC8F082C070C650082036A /* NumbersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC8F062C070AD10082036A /* NumbersDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +64,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3542624B2BF21D1800E23331 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		3542624B2BF21D1800E23331 /* MyNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNumbersView.swift; sourceTree = "<group>"; };
 		3542624D2BF220B100E23331 /* NumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInputView.swift; sourceTree = "<group>"; };
 		3542624F2BF220F800E23331 /* LottoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoInfo.swift; sourceTree = "<group>"; };
 		354262512BF2F36600E23331 /* NumberCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCheckView.swift; sourceTree = "<group>"; };
 		354262532BF2FE8400E23331 /* NumbersCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersCircleView.swift; sourceTree = "<group>"; };
 		354262552BF3034F00E23331 /* WinNumberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinNumberListView.swift; sourceTree = "<group>"; };
 		354262572BF3350F00E23331 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3545B86F2BFF3F200028FD32 /* RoundNumbersItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundNumbersItemView.swift; sourceTree = "<group>"; };
 		3552CE4A2BF216B30031F5FB /* LottoHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3552CE4D2BF216B30031F5FB /* LottoHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoHelperApp.swift; sourceTree = "<group>"; };
 		3552CE4F2BF216B30031F5FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +84,11 @@
 		813E1AD72BF749C4006B3B2A /* LottoHelperMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoHelperMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813E1AE92BF749C5006B3B2A /* LottoHelperMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoHelperMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813E1AF32BF749C5006B3B2A /* LottoHelperMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoHelperMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8159B73F2BFC571300F52DC1 /* AnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeView.swift; sourceTree = "<group>"; };
+		8159B7442BFC5A6600F52DC1 /* NumbersTotalCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTotalCount.swift; sourceTree = "<group>"; };
+		818302E42C07589A00091BFC /* NavigationToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolbarModifier.swift; sourceTree = "<group>"; };
+		81A09E232C304960006A65D1 /* NumberBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBarChartView.swift; sourceTree = "<group>"; };
+		81BC8F062C070AD10082036A /* NumbersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +145,7 @@
 		3552CE4C2BF216B30031F5FB /* LottoHelper */ = {
 			isa = PBXGroup;
 			children = (
+				8159B7432BFC5A2900F52DC1 /* Model */,
 				813E1B132BF7596F006B3B2A /* Etc */,
 				813E1B122BF7595B006B3B2A /* Logic */,
 				813E1B112BF75943006B3B2A /* Component */,
@@ -153,8 +172,10 @@
 			isa = PBXGroup;
 			children = (
 				354262512BF2F36600E23331 /* NumberCheckView.swift */,
-				3542624B2BF21D1800E23331 /* ItemListView.swift */,
+				3542624B2BF21D1800E23331 /* MyNumbersView.swift */,
 				354262552BF3034F00E23331 /* WinNumberListView.swift */,
+				8159B73F2BFC571300F52DC1 /* AnalyzeView.swift */,
+				81BC8F062C070AD10082036A /* NumbersDetailView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -164,6 +185,9 @@
 			children = (
 				354262532BF2FE8400E23331 /* NumbersCircleView.swift */,
 				3542624D2BF220B100E23331 /* NumberInputView.swift */,
+				3545B86F2BFF3F200028FD32 /* RoundNumbersItemView.swift */,
+				818302E42C07589A00091BFC /* NavigationToolbarModifier.swift */,
+				81A09E232C304960006A65D1 /* NumberBarChartView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -171,9 +195,7 @@
 		813E1B122BF7595B006B3B2A /* Logic */ = {
 			isa = PBXGroup;
 			children = (
-				3552CE512BF216B30031F5FB /* CheckNumbers.swift */,
 				3542624F2BF220F800E23331 /* LottoInfo.swift */,
-				813E1A982BF71CB7006B3B2A /* WinNumbers.swift */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -184,6 +206,16 @@
 				354262572BF3350F00E23331 /* ColorExtension.swift */,
 			);
 			path = Etc;
+			sourceTree = "<group>";
+		};
+		8159B7432BFC5A2900F52DC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				813E1A982BF71CB7006B3B2A /* WinNumbers.swift */,
+				3552CE512BF216B30031F5FB /* CheckNumbers.swift */,
+				8159B7442BFC5A6600F52DC1 /* NumbersTotalCount.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,12 +381,18 @@
 				3542624E2BF220B100E23331 /* NumberInputView.swift in Sources */,
 				354262502BF220F800E23331 /* LottoInfo.swift in Sources */,
 				3552CE522BF216B30031F5FB /* CheckNumbers.swift in Sources */,
+				3545B8702BFF3F200028FD32 /* RoundNumbersItemView.swift in Sources */,
 				813E1A992BF71CB7006B3B2A /* WinNumbers.swift in Sources */,
 				354262522BF2F36600E23331 /* NumberCheckView.swift in Sources */,
+				81BC8F072C070AD10082036A /* NumbersDetailView.swift in Sources */,
 				3552CE4E2BF216B30031F5FB /* LottoHelperApp.swift in Sources */,
-				3542624C2BF21D1800E23331 /* ItemListView.swift in Sources */,
+				3542624C2BF21D1800E23331 /* MyNumbersView.swift in Sources */,
+				8159B7452BFC5A6600F52DC1 /* NumbersTotalCount.swift in Sources */,
+				8159B7402BFC571300F52DC1 /* AnalyzeView.swift in Sources */,
+				818302E52C07589A00091BFC /* NavigationToolbarModifier.swift in Sources */,
 				354262542BF2FE8400E23331 /* NumbersCircleView.swift in Sources */,
 				354262562BF3035000E23331 /* WinNumberListView.swift in Sources */,
+				81A09E242C304960006A65D1 /* NumberBarChartView.swift in Sources */,
 				354262582BF3350F00E23331 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,17 +401,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813E1B062BF74A4F006B3B2A /* ItemListView.swift in Sources */,
+				813E1B062BF74A4F006B3B2A /* MyNumbersView.swift in Sources */,
 				813E1B092BF74A58006B3B2A /* LottoInfo.swift in Sources */,
+				8159B7472BFC707400F52DC1 /* AnalyzeView.swift in Sources */,
 				813E1B052BF74A4B006B3B2A /* ContentView.swift in Sources */,
+				3545B8712BFF3F870028FD32 /* RoundNumbersItemView.swift in Sources */,
 				813E1B0E2BF74A67006B3B2A /* WinNumbers.swift in Sources */,
 				813E1B082BF74A56006B3B2A /* NumberInputView.swift in Sources */,
+				81BC8F082C070C650082036A /* NumbersDetailView.swift in Sources */,
 				813E1B072BF74A51006B3B2A /* CheckNumbers.swift in Sources */,
 				813E1B042BF74A45006B3B2A /* LottoHelperApp.swift in Sources */,
 				813E1B0C2BF74A62006B3B2A /* WinNumberListView.swift in Sources */,
 				813E1B0B2BF74A5F006B3B2A /* NumberCheckView.swift in Sources */,
+				818302E62C0759F500091BFC /* NavigationToolbarModifier.swift in Sources */,
 				813E1B0A2BF74A5B006B3B2A /* NumbersCircleView.swift in Sources */,
 				813E1B0D2BF74A64006B3B2A /* ColorExtension.swift in Sources */,
+				81A09E252C3049B9006A65D1 /* NumberBarChartView.swift in Sources */,
+				8159B7462BFC5C2900F52DC1 /* NumbersTotalCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

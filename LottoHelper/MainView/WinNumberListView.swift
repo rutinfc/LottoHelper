@@ -65,7 +65,7 @@ struct WinNumberListView: View {
                     HStack {
                         Text("\(item.round)")
                             .frame(width: 40, alignment: .leading)
-                            .font(.subheadline)
+                            .font(.headline)
                             .padding(.trailing, 8)
                         NumbersCircleView(numbers: item.numbers, plus: item.plus)
                         
@@ -74,6 +74,7 @@ struct WinNumberListView: View {
                     .padding(.vertical, 8)
                 }
             }
+            .listStyle(.plain)
         }
         .onReceive(self.didSavePublisher, perform: { _ in
             print("didSavePublisher working?")

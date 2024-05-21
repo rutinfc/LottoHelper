@@ -19,10 +19,16 @@ struct ContentView: View {
                 Group {
                     WinNumberListView()
                         .tabItem {
-                            Label("Wins", systemImage: "face.smiling.fill")
+                            Label("Win Numbers", systemImage: "face.smiling.fill")
                         }
                         .navigationSplitViewColumnWidth(400)
-                        
+                    
+                    AnalyzeView()
+                        .tabItem {
+                            Label("Analyze", systemImage: "hourglass.circle")
+                        }
+                        .navigationSplitViewColumnWidth(400)
+                    
                     NumberCheckView()
                         .padding(.vertical, 4)
                         .tabItem {
@@ -30,9 +36,9 @@ struct ContentView: View {
                         }
                         .navigationSplitViewColumnWidth(400)
                     
-                    ItemListView()
+                    MyNumbersView()
                         .tabItem {
-                            Label("List", systemImage: "list.bullet.circle")
+                            Label("My Numbers", systemImage: "list.bullet.circle")
                         }
                         .navigationSplitViewColumnWidth(400)
                 }
